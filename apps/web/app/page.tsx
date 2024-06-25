@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Block } from "@repo/ui";
+import { Block } from "@repo/ui";
 import styles from "../styles/index.module.css";
 
 export default function Web() {
@@ -8,7 +8,6 @@ export default function Web() {
     <div className={styles.container}>
       <h1>Web</h1>
       <Block />
-      <Button onClick={() => console.log("Pressed!")} text="Boop" />
     </div>
   );
 }

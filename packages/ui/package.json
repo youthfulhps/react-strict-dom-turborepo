@@ -19,6 +19,6 @@
     "@babel/runtime": "^7.24.0",
     "react": "^18.2.0",
     "react-native": "^0.73.1",
-    "react-strict-dom": "^0.0.2"
+    "react-strict-dom": "^0.0.15"
   }
 }
