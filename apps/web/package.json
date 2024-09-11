@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.24.0",
+    "@repo/prettier-config": "*",
     "@repo/typescript-config": "*",
     "@types/node": "^20.10.6",
     "@types/react": "^18.2.46",

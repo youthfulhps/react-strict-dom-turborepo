@@ -1,5 +1,5 @@
-import * as React from "react";
-import {html} from 'react-strict-dom';
+import * as React from 'react';
+import { html } from 'react-strict-dom';
 
 export function Block() {
   return (
@@ -13,9 +13,8 @@ export function Block() {
       <html.div />
 
       <html.span>
-        <html.a href="https://google.com">anchor</html.a>,
-        <html.code>code</html.code>,<html.em>em</html.em>,
-        <html.strong>strong</html.strong>,
+        <html.a href="https://google.com">anchor</html.a>,<html.code>code</html.code>,
+        <html.em>em</html.em>,<html.strong>strong</html.strong>,
         <html.span>
           H<html.sub>2</html.sub>0
         </html.span>
@@ -25,5 +24,5 @@ export function Block() {
         </html.span>
       </html.span>
     </>
-  )
+  );
 }
